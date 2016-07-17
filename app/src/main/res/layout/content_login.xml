@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lycan.owrecall.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <Button
+        android:text="Log In via Battle.net"
+        android:layout_width="222dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="243dp"
+        android:id="@+id/button"
+        android:textColor="#FFF"
+        android:background="@color/battlenetBlue" />
+
+    <TextView
+        android:text="You have to Sign In using your Battle.net account"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteY="185dp"
+        android:id="@+id/textView3"
+        app:layout_constraintLeft_toLeftOf="@+id/content_login"
+        android:layout_marginStart="40dp" />
+</android.support.constraint.ConstraintLayout>

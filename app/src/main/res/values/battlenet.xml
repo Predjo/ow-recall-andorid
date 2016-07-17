@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battlenet_key">c6wzmh32j2sbae5cj5ute7jn5276wqev</string>
+    <string name="battlenet_secret">QjpF8u52xd8CFa4QE5YpdkyTZuPNZU2B</string>
+    <string name="battlenet_redirect">https://localhost</string>
+    <string name="battlenet_app_name">Overwatch Recall</string>
+</resources>
