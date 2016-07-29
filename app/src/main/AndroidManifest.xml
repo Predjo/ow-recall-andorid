@@ -25,12 +25,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".DestinyActivity" />
         <activity android:name=".ResultActivity" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
+        <activity android:name=".BnAccessActivity"></activity>
     </application>
 
 </manifest>

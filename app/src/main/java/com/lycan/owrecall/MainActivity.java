@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity
                 clearCredentials(bnOAuth2Params);
             }
         });*/
+
+        redirectTologin();
     }
 
     @Override
@@ -120,6 +122,11 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void redirectTologin() {
+        final Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
     }
 
     /**
